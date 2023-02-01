@@ -1,10 +1,18 @@
 import "./App.css";
+import data from "./data.json";
+import image from "./img/netflix.png";
 import Section from "./components/Section";
+
 function App() {
   return (
     <div className="App">
-      <h1>Netflix</h1>
-      <Section />
+      <header>
+        <img src={image} alt="fd" />
+      </header>
+      {data.map((elem, num) => {
+        return <Section key={num} elem={elem} />;
+      })}
+      ;
     </div>
   );
 }
