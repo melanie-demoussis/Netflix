@@ -6,7 +6,7 @@ body {
 .App {
   padding-left: 50px;
 }
-img {
+.logo {
   height: 125px;
   width: 125px;
 }
@@ -28,7 +28,7 @@ h2 {
 .images-container::-webkit-scrollbar {
   display: none;
 }
-.size {
+/*.size {
   width: 220px;
   height: 123px;
-}
+}*/
